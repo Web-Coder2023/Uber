@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uber</title>
+  <link rel="icon" href="icons/favicon.png" type="image/png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" />
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header id="top">
+    <nav>
+      <div class="container">
+        <ul class="menu">
+          <li class="menu_item"><a href="#" class="menu_link">Главная</a></li>
+          <li class="menu_item"><a href="#require" class="menu_link">Со&nbsp;своим автомобилем</a></li>
+          <li class="menu_item"><a href="#require" class="menu_link">На&nbsp;автомобиле компании</a></li>
+          <li class="menu_item"><a href="#tr" class="menu_link">Требования</a></li>
+          <li class="menu_item"><a href="#contact" class="menu_link">Контакты</a></li>
+          <li class="menu_item"><a href="#form-call" class="menu_link">Оставить заявку</a></li>
+        </ul>
+      </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <div class="subheader" id="subheader">
+      <div class="container wow animate__animated animate__fadeInDown">
+        <div class="row">
+          <div class="col-6 col-md-4 offset-md-1">
+            <a href="#" class="subheader_logo"><img src="icons/logo.png" alt="logo" /></a>
+            <div class="subheader_official">Официальный партнер Uber в&nbsp;Москве</div>
+          </div>
+
+          <div class="xs-hidden col-md-3 offset-md-1 col-xl-2 offset-xl-2">
+            <div class="subheader_call" id="contact">Звоните нам ежедневно</div>
+            <a href="tel:84957970988" class="subheader_phone">8 495 797 09 88</a>
+          </div>
+
+          <div class="col-6 col-md-3" id="form-call">
+            <a href="tel:84957970988" class="xs-visible subheader_phone">8 495 797 09 88</a>
+            <button class="subheader_btn _btn" id="open-modal-call">заказать звонок</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="promo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1 wow animate__animated animate__fadeInDown">
+          <h1 class="promo_header">КОМПАНИЯ UBER PARTNERS!</h1>
+          <h2 class="promo_subheader">ПРИГЛАШАЕМ ВОДИТЕЛЕЙ! НА&nbsp;СВОЕМ АВТО!</h2>
+          <p class="promo_descr">
+            Компания UBER динамически развивающаяся. Компания на&nbsp;рынке занимает лидирующее место средитаксомоторных
+            компаний, Компания абсолютно прозрачная вы&nbsp;можете контролировать все процессы у&nbsp;себя в&nbsp;личном
+            кабинете. Бонуcная система.Помимо выполненной работы по&nbsp;заказам, компания начисляет бонусы запиковое
+            время.
+            <br />
+            <br />
+            Мы&nbsp;одни из&nbsp;партнеров и&nbsp;зарекомендовали себя как одна из&nbsp;лучших команд в&nbsp;городе
+            Москве. Водители у&nbsp;насзарабатывают от&nbsp;80000- 120000&nbsp;в месяц.
+          </p>
+          <button class="promo_btn _btn" id="open-modal-submit">ОТПРАВИТЬ ЗАЯВКУ!</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reasons">
+    <div class="container">
+      <div class="label wow animate__animated animate__fadeInDown">преимущества</div>
+      <h2 class="title  wow animate__animated animate__fadeInDown">8&nbsp;причин начать работать с&nbsp;нами</h2>
+      <div class="row">
+
+        <div class="reasons__slider swiper">
+          <div class="reasons__wrapper swiper-wrapper">
+            <div class="reasons__slide swiper-slide">
+              <div class="reasons_block">
+                <div class="reasons_round">
+                  <img src="icons/reasons/reason_1.png" alt="reason" />
+                </div>
+                <div class="reasons_descr">
+                  <div class="reasons_subtitle">Никаких наличных, оплата происходит автоматически</div>
+                  <div class="reasons_text">
+                    Стоимость поездки оплачивается пассажиром с&nbsp;привязанной банковской карты, т.е. нет никаких
+                    рисков
+                    связанных с&nbsp;перевозкой наличности как для пассажира, так и&nbsp;для водителя, Вам
+                    не&nbsp;нужно
+                    искать мелкие
+                    деньги для размена.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reasons__slide swiper-slide">
+              <div class="reasons_block">
+                <div class="reasons_round">
+                  <img src="icons/reasons/reason_2.png" alt="reason" />
+                </div>
+                <div class="reasons_descr">
+                  <div class="reasons_subtitle">Комиссия&nbsp;8% + БОНУСЫ</div>
+                  <div class="reasons_text">
+                    У&nbsp;нас минимальная комиссия и&nbsp;мы&nbsp;выплачиваем бонусы за&nbsp;каждую поездку,
+                    некоторые наши
+                    конкуренты оставляют бонусы себе. Мы&nbsp;работаем честно и&nbsp;с&nbsp;нами водители зарабатывают
+                    больше!
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reasons__slide swiper-slide">
+              <div class="reasons_block">
+                <div class="reasons_round">
+                  <img src="icons/reasons/reason_3.png" alt="reason" />
+                </div>
+                <div class="reasons_descr">
+                  <div class="reasons_subtitle">Высокий доход с&nbsp;гарантированными выплатами</div>
+                  <div class="reasons_text">
+                    Мы&nbsp;выплачиваем заработную плату на&nbsp;личную банковскую карту водителя! Вам не&nbsp;нужно
+                    оформлять ООО, ИП, платить налоги, подавать декларацию, оплачивать бухгалтерские услуги
+                    и&nbsp;ведение
+                    банковского счета.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reasons__slide swiper-slide">
+              <div class="reasons_block">
+                <div class="reasons_round">
+                  <img src="icons/reasons/reason_4.png" alt="reason" />
+                </div>
+                <div class="reasons_descr">
+                  <div class="reasons_subtitle">Работа в&nbsp;удобное время, никаких графиков</div>
+                  <div class="reasons_text">
+                    Вы&nbsp;просто нажимаете кнопку выйти на&nbsp;линию для начала работы, когда решите закончить,
+                    нажимаете
+                    выйти с&nbsp;линии. Вы&nbsp;можете подрабатывать только утром, вечером, в&nbsp;выходные или
+                    праздничные
+                    дни!
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reasons__slide swiper-slide">
+              <div class="reasons_block">
+                <div class="reasons_round">
+                  <img src="icons/reasons/reason_5.png" alt="reason" />
+                </div>
+                <div class="reasons_descr">
+                  <div class="reasons_subtitle">Комфортное, прозрачное и&nbsp;простое подключение</div>
+                  <div class="reasons_text">
+                    Мы&nbsp;подключаем дистанционно и&nbsp;бесплатно, Вам нет необходимости приезжать к&nbsp;нам!
+                    Вы&nbsp;присылаете нам копии документов, мы&nbsp;регистрируем Вас и&nbsp;присылаем данные для
+                    подключения, через 1-2 дня&nbsp;Вы
+                    можете начинать работать!
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reasons__slide swiper-slide">
+              <div class="reasons_block">
+                <div class="reasons_round">
+                  <img src="icons/reasons/reason_6.png" alt="reason" />
+                </div>
+                <div class="reasons_descr">
+                  <div class="reasons_subtitle">Всегда большое количество заказов</div>
+                  <div class="reasons_text">
+                    Приложение показывает, где на&nbsp;данный момент больше всего заказов и&nbsp;где действуют
+                    повышенные
+                    тарифы. У&nbsp;Вас не&nbsp;будет простоя и&nbsp;холостых пробегов. Наши пассажиры всегда приятные
+                    и&nbsp;абсолютно
+                    неконфликтные люди, которых приятно возить.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reasons__slide swiper-slide">
+              <div class="reasons_block">
+                <div class="reasons_round">
+                  <img src="icons/reasons/reason_7.png" alt="reason" />
+                </div>
+                <div class="reasons_descr">
+                  <div class="reasons_subtitle">Круглосуточная поддержка</div>
+                  <div class="reasons_text">
+                    В&nbsp;Uber действует круглосуточная поддержка водителей по&nbsp;электронной почте. Если что-то
+                    непонятно, Вы&nbsp;всегда можете задать вопрос через On-line консультацию.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reasons__slide swiper-slide">
+              <div class="reasons_block">
+                <div class="reasons_round">
+                  <img src="icons/reasons/reason_6.png" alt="reason" />
+                </div>
+                <div class="reasons_descr">
+                  <div class="reasons_subtitle">Без шашечек и&nbsp;наклеек</div>
+                  <div class="reasons_text">
+                    Вам не&nbsp;нужно менять цвет, устанавливать &laquo;шашки&raquo; на&nbsp;автомобиль
+                    и&nbsp;обклеивать
+                    его наклейками.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="swiper-button-prev"></button>
+          <button type="button" class="swiper-button-next"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mobile">
+    <div class="container">
+      <div class="label wow animate__animated animate__fadeInDown">возможности</div>
+      <div class="title wow animate__animated animate__fadeInDown">мобильное приложение убер</div>
+      <div class="subtitle wow animate__animated animate__fadeInDown">Сделайте заказ, совершите поездку и&nbsp;оплатите
+        ее&nbsp;стоимость, используя свой мобильный телефон</div>
+
+      <div class="row">
+        <div class="col-md-6 col-lg-4 wow animate__animated animate__fadeInDown">
+          <div class="mobile_item mobile_item_1">
+            <div class="mobile_item_subtitle">
+              оформление заказа одним касанием
+            </div>
+            <div class="mobile_item_plus"></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 wow animate__animated animate__fadeInDown">
+          <div class="mobile_item mobile_item_2">
+            <div class="mobile_item_subtitle">
+              надежная подача
+            </div>
+            <div class="mobile_item_plus"></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 wow animate__animated animate__fadeInDown">
+          <div class="mobile_item mobile_item_3">
+            <div class="mobile_item_subtitle">
+              прозрачные цены
+            </div>
+            <div class="mobile_item_plus"></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 wow animate__animated animate__fadeInDown">
+          <div class="mobile_item mobile_item_4">
+            <div class="mobile_item_subtitle">
+              безналичная оплата
+            </div>
+            <div class="mobile_item_plus"></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 wow animate__animated animate__fadeInDown">
+          <div class="mobile_item mobile_item_5">
+            <div class="mobile_item_subtitle">
+              обратная связь
+            </div>
+            <div class="mobile_item_plus"></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 wow animate__animated animate__fadeInDown">
+          <div class="mobile_item mobile_item_6">
+            <div class="mobile_item_subtitle">
+              разделить стоимость поездки
+            </div>
+            <div class="mobile_item_plus"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="choice">
+    <div class="container">
+      <div class="black"></div>
+      <div class="label label_white wow animate__animated animate__fadeInDown">возможности</div>
+      <h2 class="title title_white hidden-320 wow animate__animated animate__fadeInDown">Выбор - отличная штука!</h2>
+      <div class="subtitle subtitle_white hidden-320 wow animate__animated animate__fadeInDown">Закажите автомобиль,
+        который подходит вам по&nbsp;стилю и&nbsp;бюджету</div>
+
+      <img src="img/car.png" alt="uber car" class="choice_img wow animate__animated animate__fadeInLeftBig" />
+      <div class="choice_descr">
+        Машины на каждый день.<br />
+        Лучше, быстрее и дешевле, чем такси
+      </div>
+    </div>
+  </section>
+
+  <section class="require" id="require">
+    <div class="container">
+      <div class="label wow animate__animated animate__fadeInLeft">возможности</div>
+      <div class="title wow animate__animated animate__fadeInLeft">условия и требования</div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="require_block">
+            <div class="require_title wow animate__animated animate__fadeInLeft">УСЛОВИЯ: со своим авто:</div>
+            <ul class="require_list">
+              <li class="wow animate__animated animate__fadeInLeft">Подключаем к системе UBER под 10%.</li>
+              <li class="wow animate__animated animate__fadeInLeft">Ни каких взносов 0%!</li>
+              <li class="wow animate__animated animate__fadeInLeft">Можем подключать удаленно без приезда в офис</li>
+              <li class="wow animate__animated animate__fadeInLeft">ИП не требуется</li>
+              <li class="wow animate__animated animate__fadeInLeft">
+                Заказы распределяются без учета рейтинга ближай-<br />
+                шим водителям
+              </li>
+              <li class="wow animate__animated animate__fadeInLeft">Работа только по безналичному расчету</li>
+              <li class="wow animate__animated animate__fadeInLeft">
+                Деньги перечисляем на карту водителю или наличны-<br />
+                ми в офисе
+              </li>
+            </ul>
+            <div class="require_descr">
+              В день заработок составляет 7000-12000р + бонус 3000т<br />
+              рублей
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="require_block">
+            <div class="require_title wow animate__animated animate__fadeInRight">УСЛОВИЯ: на авто компании:</div>
+            <ul class="require_list">
+              <li class="wow animate__animated animate__fadeInRight">Предоставляем авто без залога</li>
+              <li class="wow animate__animated animate__fadeInRight">Без ежедневных выплат по аренде</li>
+              <li class="wow animate__animated animate__fadeInRight">
+                Среда пятница и суббота работа на компанию осталь-<br />
+                ные дни вы работаете на себя
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="require_block require_block_nmb warning" id="tr">
+            <div class="require_title wow animate__animated animate__fadeInLeft">ТРЕБОВАНИЕ:</div>
+            <ul class="require_list">
+              <li class="wow animate__animated animate__fadeInLeft">Наличие автомобиля без рекламы</li>
+              <li class="wow animate__animated animate__fadeInLeft">
+                Автомобиль не должен быть желтый и не с желтыми<br />
+                номерами
+              </li>
+              <li class="wow animate__animated animate__fadeInLeft">Машина не старше 3 лет</li>
+              <li class="wow animate__animated animate__fadeInLeft">Стаж вождения не менее 3 лет</li>
+              <li class="wow animate__animated animate__fadeInLeft">Девайс на системе андроид 4.0 и выше(самсунг)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="require_block require_block_nmb warning">
+            <div class="require_title wow animate__animated animate__fadeInRight">ДОКУМЕНТЫ:</div>
+            <ul class="require_list">
+              <li class="wow animate__animated animate__fadeInRight">Права 2 стороны</li>
+              <li class="wow animate__animated animate__fadeInRight">Паспорт лицевая сторона</li>
+              <li class="wow animate__animated animate__fadeInRight">СтС</li>
+              <li class="wow animate__animated animate__fadeInRight">Лицензия (если есть)</li>
+              <li class="wow animate__animated animate__fadeInRight">Номер телефона</li>
+              <li class="wow animate__animated animate__fadeInRight">Номер карты для перечисления денег(указать в
+                письме)!</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="world">
+    <div class="container">
+      <div class="label label_white label_min wow animate__animated animate__fadeInDown">города</div>
+      <h2 class="title title_white wow animate__animated animate__fadeInDown">По всему миру</h2>
+      <div class="subtitle subtitle_white wow animate__animated animate__fadeInDown">Мы в вашем городе и по всему миру
+      </div>
+
+      <a href="#" class="world_link wow animate__animated animate__fadeInDown">посмотреть все города</a>
+    </div>
+  </section>
+
+  <footer class="wow animate__animated animate__fadeInDown" id="bottom">
+    <div class="footer_divider"></div>
+    <div class="footer_wrapper">
+      <div>
+        <div class="footer_soc">
+          <a href="https://www.facebook.com/1487043714678077/" class="footer_soc_item" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com/uber_russia" class="footer_soc_item" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://vk.com/uber" class="footer_soc_item" target="_blank">
+            <i class="fab fa-vk"></i>
+          </a>
+          <a href="https://www.instagram.com/uber.russia/?hl=ru" class="footer_soc_item" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <div>
+        <div class="footer_links">
+          <div class="footer_links_main">
+            <a href="#">на главную</a>
+            <a href="#">города</a>
+            <a href="#">для водителей</a>
+          </div>
+          <div class="footer_links_sub">
+            <a href="#">центр поддержки</a>
+            <a href="#">вакансии</a>
+            <a href="#">разработчики</a>
+            <a href="#">блог</a>
+            <a href="#">о нас</a>
+          </div>
+          <a href="#" class="footer_links_lang">Русский</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer_mobile">
+          <a href="https://tb67.adj.st/?adj_t=uzznkl5&adj_campaign=support-uber&adj_adgroup=Footer&adj_creative=Footer&adj_fallback=https%3A%2F%2Fapps.apple.com%2Fru%2Fapp%2Fuber-ru-%D0%BD%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%BE-%D0%B8-%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%2Fid1438528886&adj_redirect_macos=https%3A%2F%2Fapps.apple.com%2Fru%2Fapp%2Fuber-ru-%D0%BD%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%BE-%D0%B8-%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%2Fid1438528886"
+            target="_blank"><img src="img/app_store.png" alt="App Store" /></a>
+          <a href="https://play.google.com/store/apps/details?id=ru.yandex.uber&hl=ru&gl=US" target="_blank"><img
+              src="img/google_play.png" alt="Google play" /></a>
+          <a href="https://www.microsoft.com/ru-ru/p/uber/9wzdncrfhxrd?activetab=pivot:overviewtab" target="_blank"><img
+              src="img/windows_store.png" alt="Windows store" /></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="arrow-top" id="myElement">
+    <a href="#top" class="arrow-top__link">
+      <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="50" height="50" rx="25" fill="#212121" />
+        <rect x="10" y="22.0907" width="21.3415" height="1.70732" transform="rotate(-45 10 22.0907)" fill="white" />
+        <rect x="25.7197" y="7" width="21.3415" height="1.70732" transform="rotate(45 25.7197 7)" fill="white" />
+        <rect x="24.5117" y="7.85364" width="1.70732" height="34.1464" fill="white" />
+      </svg>
+
+    </a>
+  </div>
+
+  <div class="modal modal-call">
+    <form action="form.php" class="modal__form" method="post">
+      <div class="modal__form-close"><span></span></div>
+      <h2 class="modal__form-title">Заказать звонок</h2>
+      <div class="modal__form-box"><input type="text" class="modal__form-input" id="name-call" placeholder="Как к вам обращаться?">
+      </div>
+      <div class="modal__form-box"><input type="text" class="modal__form-input" id="phone-input" placeholder="+7 (___) ___-__-__"></div>
+      <button type="submit" class="modal__form-btn _btn" id="modalFormCall">заказать звонок</button>
+    </form>
+  </div>
+
+  <div class="modal modal-submit">
+    <form action="form.php" class="modal__form" method="post">
+      <div class="modal__form-close"><span></span></div>
+      <h2 class="modal__form-title">Отправить заявку</h2>
+      <div class="modal__form-box"><input type="text" class="modal__form-input" id="name-submit" placeholder="Как к вам обращаться?">
+      </div>
+      <div class="modal__form-box"><input type="text" class="modal__form-input" id="phone-input-submit" placeholder="+7 (___) ___-__-__"></div>
+      <button type="submit" class="modal__form-btn _btn" id="modalFormSubmit">Отправить заявку</button>
+    </form>
+  </div>
+
+  <script src="https://kit.fontawesome.com/cb40589f77.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.6/jquery.inputmask.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
